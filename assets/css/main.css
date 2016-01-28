@@ -3106,7 +3106,7 @@
 			filter: blur(0);
 			opacity: 1;
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
+			font-size: 1.4em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
@@ -3435,9 +3435,14 @@
 			.wrapper.spotlight.style4 {
 				background-color: #39477c;
 			}
-
+/*
 				.wrapper.spotlight.style4:before, .wrapper.spotlight.style4:after {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2339477c;' /%3E%3C/svg%3E");
+*/
+				
+				.wrapper.spotlight.style4:before, .wrapper.spotlight.style4:after {
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:#B9BFCD;' /%3E%3C/svg%3E");
+				}
 				}
 
 			.wrapper.spotlight.style5 {
